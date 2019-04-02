@@ -1,5 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+let myFirst = "Jonathan";
+let myLast = "Traverso";
+
+
+let greeting = function() {
+  let myAddress = "123 House Street";
+  return `Hi! My name's ${myFirst} ${myLast} and I live at ${myAddress}. Hopefully you don't misuse that information.`
+}
+console.log(greeting());
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
